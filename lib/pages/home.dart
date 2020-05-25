@@ -16,6 +16,9 @@ class _HomeState extends State<Home> {
     Color bgColor = data['isDaytime'] ? Colors.lightBlue : Colors.indigo;
     return Scaffold(
         backgroundColor: bgColor,
+        appBar: AppBar(
+          title: Text('Home Page')
+        ),
         body: SafeArea(
           child: Container(
             decoration: BoxDecoration(
